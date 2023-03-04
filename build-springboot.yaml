@@ -1,0 +1,10 @@
+apiVersion: rhpam.kiegroup.org/v1 
+kind: KogitoBuild 
+metadata:
+  name: example-springboot  
+spec:
+  runtime: springboot
+  type: RemoteSource
+  gitSource:
+    uri: 'https://github.com/kiegroup/kogito-examples'  
+    contextDir: 'kogito-springboot-examples/dmn-springboot-example'
