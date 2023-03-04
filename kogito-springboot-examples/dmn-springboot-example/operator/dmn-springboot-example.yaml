@@ -11,7 +11,7 @@ spec:
   #  value: "my value"
   gitSource:
     contextDir: kogito-springboot-examples/dmn-springboot-example
-    uri: 'https://github.com/alpha-wolf-jin/kogito-examples'
+    uri: 'https://github.com/alpha-wolf-jin/kogito-examples-01'
   # set your maven nexus repository to speed up the build time
   #mavenMirrorURL: 
 ---
